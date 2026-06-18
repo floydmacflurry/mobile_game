@@ -26,7 +26,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Artem Hikaru'), findsOneWidget);
-    expect(find.text('Calliano Project'), findsOneWidget);
+    expect(find.text('FinQuest'), findsOneWidget);
     expect(find.text('Начать игру'), findsOneWidget);
     expect(find.text('Как играть?'), findsOneWidget);
     expect(find.text('Поддержка'), findsOneWidget);

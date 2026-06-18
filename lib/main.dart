@@ -61,7 +61,7 @@ class _FinanceQuestAppState extends State<FinanceQuestApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Calliano Project',
+      title: 'FinQuest',
       theme: _buildTheme(),
       builder: (context, child) {
         final media = MediaQuery.of(context);
@@ -326,7 +326,7 @@ class MainMenuScreen extends StatelessWidget {
                     const _GameLogo(size: 118),
                     SizedBox(height: _ui(context, 12)),
                     Text(
-                      'Calliano Project',
+                      'FinQuest',
                       style: Theme.of(context).textTheme.headlineLarge,
                     ),
                     SizedBox(height: _ui(context, 8)),
